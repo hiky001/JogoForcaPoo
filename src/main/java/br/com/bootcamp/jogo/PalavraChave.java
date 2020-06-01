@@ -28,9 +28,9 @@ public class PalavraChave {
         inputFile.close();
 
         //Apartir do arraylist seleciona uma palavra randomica
-        String palavra = palavras.get((int) (Math.random() * palavras.size()));
+        palavraChave = palavras.get((int) (Math.random() * palavras.size()));
 
-        setPalavraChave(palavra);
+        setPalavraChave(palavraChave);
     }
 
     public void montaDica(){
